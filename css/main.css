@@ -1,0 +1,137 @@
+.body{ 
+	font-family: Open Sans, sans-serif;
+}
+.logo{
+	margin-top: 30px;
+	float: left;
+}
+.logo a{
+	display:block;
+}
+.logo:after{
+	clear:both;
+}
+.banner{
+	height: 1181px;
+	background: url("../img/bg_image_1.jpg") no-repeat;
+}
+.top-nav ul li a , .foot-nav ul li a{
+	color: #dce3e4;
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	/*top: 27px;*/
+	font-weight: 300;
+	text-decoration: none;
+	padding: 0px 18px 0px 18px;
+	display: block;
+}
+.top-nav ul li a, .foot-nav ul li a:hover{
+	color:#fff;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.row:before{
+	background: url("../img/bg_image_1.jpg") no-repeat;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+.row{
+	text-align: center;
+	position: relative;
+	background-color: white;
+	/*margin-top: 13%;*/
+	margin-top: 15em;
+	/*color: white;*/
+}
+.title{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+div.container > div {
+	/*margin-top: 2em;*/
+}
+.top-nav {
+	position: relative;
+	float: right;
+	margin-top: 1.8em;
+	/*height: 128px;*/
+}
+
+nav ul {
+	float: right;
+	/*padding-top: 2px;*/
+	color:#dce3e4;
+}
+nav li {
+	display: inline-block;
+	position:relative;
+	vertical-align: center;
+	/*height: 128px;*/
+	/*line-height: 128px;*/
+}
+nav a {
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	/*line-height: 40px;*/
+}
+nav a:hover{
+	text-decoration:none;
+	color:#00A2C1;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+nav a#pull {
+	display: none;
+}
+.top-nav:after{
+	clear: both;
+}
+.footer{
+	padding:1em 0px;
+}
+.foot-nav{
+	/*background:#00d089; */
+	background:#55adb7;
+	overflow: hidden;
+	padding:1em 0px;
+	text-align:center;
+	position: relative;
+	margin:0;
+	/*top:25px;*/
+}
+
+.foot-nav ul li a {
+	display: inline-block;
+	color: #dce3e4;
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	/*top: 27px;*/
+	font-weight: 300;
+	text-decoration: none;
+	padding: 0px 18px 0px 18px;
+	display: block;
+}
+.foot-nav ul li a:hover{
+	color:#fff;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
